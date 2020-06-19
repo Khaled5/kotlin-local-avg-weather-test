@@ -35,6 +35,7 @@
     <string name="jan">Jan</string>
     <string name="feb">Feb</string>
     <string name="june">June</string>
+    <string name="save_city">Save City</string>
 
     <string-array name="temp_types">
         <item>Temperature type</item>
