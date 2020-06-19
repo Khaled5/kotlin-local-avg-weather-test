@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="city">City</string>
+    <string name="cities">Cities</string>
+    <string name="season">Season</string>
+    <string name="temperature">Temperature type</string>
+    <string name="average_temperature">Average temperature</string>
+    <string name="city_type">City type:</string>
+    <string name="average">Average:</string>
+    <string name="averages">Average</string>
+    <string name="add_city">Add city</string>
+    <string name="all_fields_are_required">All fields are required</string>
+
+    <string name="city_name_argument">cityNameArgument</string>
+
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="summer">Summer</string>
+    <string name="jule">Jule</string>
+    <string name="spring">Spring</string>
+    <string name="april">April</string>
+    <string name="mar">Mar</string>
+    <string name="may">May</string>
+    <string name="aug">Aug</string>
+    <string name="type">Type</string>
+    <string name="autumn">Autumn</string>
+    <string name="sep">Sep</string>
+    <string name="oct">Oct</string>
+    <string name="nov">Nov</string>
+    <string name="winter">Winter</string>
+    <string name="dec">Dec</string>
+    <string name="jan">Jan</string>
+    <string name="feb">Feb</string>
+    <string name="june">June</string>
+
+    <string-array name="temp_types">
+        <item>Temperature type</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="season">
+        <item>Winter</item>
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Autumn</item>
+    </string-array>
+
+    <string-array name="city_type">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+</resources>

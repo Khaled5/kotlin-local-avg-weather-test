@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/weatherAvgFragment"
+        android:icon="@drawable/ic_avg_temp"
+        android:title="@string/averages"/>
+
+    <item
+        android:id="@+id/citiesFragment"
+        android:icon="@drawable/ic_city"
+        android:title="@string/cities"/>
+
+    <item
+        android:id="@+id/manageCityFragment"
+        android:icon="@drawable/ic_add"
+        android:title="@string/add_city"/>
+</menu>

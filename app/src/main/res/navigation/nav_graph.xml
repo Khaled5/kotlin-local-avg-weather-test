@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/weatherAvgFragment">
+
+    <fragment
+        android:id="@+id/weatherAvgFragment"
+        android:name="com.easyinc.weatherapp.ui.WeatherAvgFragment"
+        android:label="fragment_weather_avg"
+        tools:layout="@layout/fragment_weather_avg" >
+    </fragment>
+    <fragment
+        android:id="@+id/manageCityFragment"
+        android:name="com.easyinc.weatherapp.ui.ManageCityFragment"
+        android:label="fragment_manage_city"
+        tools:layout="@layout/fragment_manage_city" >
+
+        <argument
+            android:name="cityNameArgument"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_manageCityFragment_to_weatherAvgFragment"
+            app:destination="@id/weatherAvgFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popUpTo="@+id/productsFragment"
+            app:popUpToInclusive="true"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/citiesFragment"
+        android:name="com.easyinc.weatherapp.ui.cities.CitiesFragment"
+        android:label="fragment_cities"
+        tools:layout="@layout/fragment_cities" >
+        <action
+            android:id="@+id/action_citiesFragment_to_manageCityFragment"
+            app:destination="@id/manageCityFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"/>
+    </fragment>
+</navigation>
